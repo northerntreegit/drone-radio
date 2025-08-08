@@ -1,0 +1,10 @@
+json
+{
+  "name": "遥控无线输出",
+  "description": "使用定制 radio 驱动的无线通信扩展",
+  "dependencies": {},
+  "files": [
+    "main.ts"
+  ],
+  "preferredEditor": "blocksprj"
+}
