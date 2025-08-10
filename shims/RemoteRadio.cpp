@@ -12,4 +12,8 @@ void RemoteRadio_nativeShutdown() {
     NRF_RADIO->PCNF1 |= (1 << 25);
 }
 
+void RemoteRadio_nativeTest() {
+    ;
+}
+
 }
