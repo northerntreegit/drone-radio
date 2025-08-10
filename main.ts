@@ -7,7 +7,7 @@ namespace remoteRadio {
      * 打开 RemoteRadio
      */
     //% block
-    export function enable(): void {
+    export function enable_remote(): void {
         radioCore.init()
     }
     
@@ -15,10 +15,11 @@ namespace remoteRadio {
      * 关闭 RemoteRadio
      */
     //% block
-    export function disable(): void {
+    export function disable_remote(): void {
         radioCore.shutdown()
     }
     
 }
+
 
 
