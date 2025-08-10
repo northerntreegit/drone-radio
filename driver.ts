@@ -9,5 +9,10 @@ namespace RemoteRadio {
     export function shutdown(): void {
         // 打开 CRC、whitening 功能，恢复原有 radio 设置
     }
+
+    //% shim=RemoteRadio_nativeTest
+    export function test(): void {
+        // 测试
+    }
 }
 
