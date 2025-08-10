@@ -1,5 +1,5 @@
 //% weight=100 color=#0fbc11 icon=""
-namespace remoteRadio {
+namespace LN_Drone {
     let stringHandler: (msg: string) => void = null
     let numberHandler: (num: number) => void = null
 
@@ -20,6 +20,7 @@ namespace remoteRadio {
     }
     
 }
+
 
 
 
