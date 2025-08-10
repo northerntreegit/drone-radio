@@ -18,8 +18,20 @@ namespace LN_Drone {
     export function disable_remote(): void {
         radioCore.shutdown()
     }
+
+     /**
+     * 测试 RemoteRadio
+     */
+    //% block
+    export function test_remote(): void {
+        radioCore.test()
+    }
+
+
+    
     
 }
+
 
 
 
