@@ -1,9 +1,12 @@
 {
   "name": "drone-radio",
-  "description": "radio without CRC or whitening for Microbit connect nrf24L01",
+  "description": "Radio control for Microbit to connect nRF24L01 without CRC or whitening",
   "dependencies": {},
   "files": [
-    "main.ts"
+    "main.ts",
+    "driver.ts"
   ],
-  "preferredEditor": "blocksprj"
+  "preferredEditor": "tsprj"
 }
+
+
