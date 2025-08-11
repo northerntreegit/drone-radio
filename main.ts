@@ -1,16 +1,13 @@
 //% color=#0fbc11
 namespace DroneRadio {
-    //% block="硬件测试并显示笑脸" 
-    //% blockSetVariable=icon
-    export function test(): number {
-        // 调用底层硬件操作
+    //% block="硬件测试P0闪烁" 
+    export function test(): void {
+        // 调用底层硬件操作，让P0脚闪烁
         nativeTest()
-        // 返回笑脸图标代码
-        return 1  // IconNames.Happy 的值是 1
     }
 
     //% shim=RemoteRadio_nativeTest
     function nativeTest(): void {
-        // 这里会调用 C++ 代码进行硬件操作
+        // 这里会调用 C++ 代码进行P0引脚闪烁操作
     }
 }
