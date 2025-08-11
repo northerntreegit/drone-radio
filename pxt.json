@@ -1,20 +1,14 @@
 {
-    "name": "drone-radio",
-    "version": "1.0.1",
-    "description": "Radio control for Microbit to connect nRF24L01 without CRC or whitening",
+    "name": "pxt-drone-radio",
+    "version": "1.0.4",
+    "description": "Simple test extension",
     "dependencies": {
         "core": "*"
     },
     "files": [
-        "main.ts",
-        "driver.ts",
-        "README.md"
+        "main.ts"
     ],
-    "public": true,
-    "supportedTargets": [
-        "microbit"
-    ],
-    "preferredEditor": "tsprj"
+    "supportedTargets": ["microbit"]
 }
 
 
