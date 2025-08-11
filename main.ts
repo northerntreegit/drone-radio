@@ -1,36 +1,25 @@
 //% weight=100 color=#0fbc11 icon=""
 namespace LN_Drone {
-    let stringHandler: (msg: string) => void = null
-    let numberHandler: (num: number) => void = null
-
-     /**
-     * 打开 RemoteRadio
-     */
+    /** 打开 RemoteRadio */
     //% block
     export function enable_remote(): void {
-        radioCore.init()
+        RemoteRadio.init()
     }
-    
-    /**
-     * 关闭 RemoteRadio
-     */
+
+    /** 关闭 RemoteRadio */
     //% block
     export function disable_remote(): void {
-        radioCore.shutdown()
+        RemoteRadio.shutdown()
     }
 
-     /**
-     * 测试 RemoteRadio
-     */
+    /** 测试 RemoteRadio */
     //% block
     export function test_remote(): void {
-        radioCore.test()
+        RemoteRadio.test()
     }
-
-
-    
-    
 }
+
+
 
 
 
