@@ -2,6 +2,8 @@
   "name": "drone-radio",
   "description": "Radio control for Microbit to connect nRF24L01 without CRC or whitening",
   "version": "0.0.1",
+  "license": "MIT",
+  "author": "northerntreegit",
   "dependencies": {
     "core": "*",
     "radio": "*"
@@ -19,7 +21,8 @@
     "targetId": "microbit"
   },
   "supportedTargets": ["microbit"],
-  "preferredEditor": "tsprj"
+  "preferredEditor": "tsprj",
+  "public": true
 }
 
 
