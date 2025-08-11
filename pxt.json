@@ -1,13 +1,16 @@
 {
     "name": "pxt-drone-radio",
-    "version": "0.0.3",
-    "description": "Simple test extension with LED display",
+    "version": "0.0.4",
+    "description": "Simple test extension with hardware control",
     "dependencies": {
         "core": "*"
     },
     "files": [
         "main.ts"
     ],
+    "shims": {
+        "main.ts": "shims/RemoteRadio.cpp"
+    },
     "supportedTargets": ["microbit"]
 }
 
