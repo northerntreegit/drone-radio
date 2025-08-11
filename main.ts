@@ -1,3 +1,5 @@
+/// <reference path="driver.ts" />
+
 //% weight=100 color=#0fbc11 icon="\uf1eb"
 namespace LN_Drone {
     /** 打开 RemoteRadio */
