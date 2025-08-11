@@ -1,12 +1,19 @@
 {
   "name": "drone-radio",
   "description": "Radio control for Microbit to connect nRF24L01 without CRC or whitening",
-  "dependencies": {},
+  "dependencies": {
+    "core": "*",
+    "radio": "*"
+  },
   "files": [
     "main.ts",
     "driver.ts"
   ],
+  "shims": {
+    "driver.ts": "shims/RemoteRadio.cpp"
+  },
   "preferredEditor": "tsprj"
 }
+
 
 
